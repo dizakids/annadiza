@@ -63,12 +63,12 @@
 
   <div class="container">
 
-  <h2><i class="fab fa-ethereum"></i>&nbsp;Категории</h2>
+ <!--  <h2><i class="fab fa-ethereum"></i>&nbsp;Категории</h2>
     <hr size="10px" color="#29a137">
 
 <div v-for="category in main_categories" :key="`new-${category.id}`">
       <p>{{ category.name }}</p>
-    </div>
+    </div> -->
 
     <h2><i class="fab fa-ethereum"></i>&nbsp;TOP вершины континентов</h2>
     <hr size="10px" color="#29a137">
