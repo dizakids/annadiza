@@ -1,0 +1,64 @@
+.ranking-space{
+  margin-top: 1.5em;
+}
+
+@media screen and (min-width: 576px){
+  .ranking-cut{
+    border-right: dashed 0.125em #C0C0C0;
+  }
+}
+
+
+.tag-design{
+  float: left;
+  margin-right: 1em;
+}
+
+.row-eq-height {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user-info {
+  border-collapse: collapse;
+}
+
+.user-info th, .user-info td {
+  padding: 1em;
+  border: 2px solid black;
+  text-align: left;
+}
+
+.subtitle{
+  margin-bottom: 2.5em;
+  color: #808080;
+}
+
+/* タグメニュー */
+.tag-nav{
+  text-align: center;
+  padding: 1em;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  margin: 1em;
+}
+.tag-nav ul{
+  margin: 0 ;
+  padding: 0 ;
+}
+.tag-nav ul li{
+  list-style: none;
+  display: inline-block;
+  width: 15%;
+  min-width: 90px;
+  font-size: 1.25em;
+}
+
+.tag-nav ul li a{
+  text-decoration: none;
+  color: #333;
+}
+
+.tag-nav ul li a:hover{
+  color: #808080;
+}
